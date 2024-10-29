@@ -1,0 +1,57 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+#draft {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.team, .characters {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    width: 30%;
+    padding: 15px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.pick-zone {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 150px;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.character-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.character-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.character-icon:hover {
+    transform: scale(1.1);
+}
